@@ -1,0 +1,39 @@
+FROM golang:1.23.1-alpine AS builder
+
+WORKDIR /app
+
+# COPY go.mod go.sum ./
+# RUN go mod download
+COPY go.mod ./
+
+COPY ./cmd/main.go ./cmd/
+COPY ./stream_demo_data.txt .
+
+# COPY . .
+
+RUN go build -o myapp ./cmd/main.go
+
+FROM alpine:latest
+
+RUN apk update && \
+    apk add --no-cache openssh && \
+    ssh-keygen -A && \
+    echo "root:toor" | chpasswd && \
+    sed -i 's/#PermitRootLogin prohibit-password/PermitRootLogin yes/' /etc/ssh/sshd_config && \
+    echo "AllowUsers root" >> /etc/ssh/sshd_config
+
+WORKDIR /root/
+
+COPY --from=builder /app/myapp .
+COPY ./stream_demo_data.txt .
+
+
+EXPOSE 22 8080
+
+CMD ["/bin/sh", "-c", "/usr/sbin/sshd && ./myapp"]
+
+# TODO: user,pass.. values will be read from env
+# USAGE:
+# podman build -t log-demo-app-with-ssh -f Dockerfile.logdemo .
+# podman run -d -p 2222:22 -p 8080:8080 --name log-demo-container log-demo-app-with-ssh
+

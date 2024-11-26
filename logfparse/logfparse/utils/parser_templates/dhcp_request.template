@@ -1,0 +1,13 @@
+Value ClientIdentifier (\w{2}(:\w{2}){6})
+Value RequestIpAddress (\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})
+Value VendorClassIdentifier (.+)
+Value HostName (\S+)
+
+Start
+  ^OPTION:\s53\s\(\s1\)\sDHCP\smessage\stype\s3\s\(\S+\) -> Con
+
+Con
+  ^OPTION:\s\d+\s\(\s\d+\)\sClient-identifier\s${ClientIdentifier}
+  ^OPTION:\s\d+\s\(\s\d+\)\sRequest\sIP\saddress\s${RequestIpAddress}
+  ^OPTION:\s\d+\s\(\s\d+\)\sVendor\sclass\sidentifier\s${VendorClassIdentifier}
+  ^OPTION:\s\d+\s\(\s\d+\)\sHost\sname\s${HostName}

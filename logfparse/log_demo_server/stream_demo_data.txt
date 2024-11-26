@@ -1,0 +1,477 @@
+---------------------------------------------------------------------------
+TIME: 2023-08-24 17:46:37.098
+IP: 0.0.0.0 (96:4e:d7:51:42:de) > 255.255.255.255 (ff:ff:ff:ff:ff:ff)
+OP: 1 (BOOTPREQUEST)
+HTYPE: 1 (Ethernet)
+HLEN: 6
+HOPS: 0
+XID: 54330ee6
+SECS: 0
+FLAGS: 0
+CIADDR: 0.0.0.0
+YIADDR: 0.0.0.0
+SIADDR: 0.0.0.0
+GIADDR: 0.0.0.0
+CHADDR: 96:4e:d7:51:42:de:00:00:00:00:00:00:00:00:00:00
+SNAME: .
+FNAME: .
+OPTION: 53 ( 1) DHCP message type 3 (DHCPREQUEST)
+OPTION: 61 ( 7) Client-identifier 01:96:4e:d7:51:42:de
+OPTION: 50 ( 4) Request IP address 10.38.1.117
+OPTION: 57 ( 2) Maximum DHCP message size 1500
+OPTION: 60 ( 15) Vendor class identifier android-dhcp-13
+OPTION: 12 ( 12) Host name OnePlus-9-5G
+OPTION: 55 ( 12) Parameter Request List 1 (Subnet mask)
+3 (Routers)
+6 (DNS server)
+15 (Domainname)
+28 (Broadcast address)
+51 (IP address leasetime)
+58 (T1)
+59 (T2)
+43 (Vendor specific info)
+114 (URL)
+108 (Swap Path)
+---------------------------------------------------------------------------
+TIME: 2023-08-24 17:46:37.098
+IP: 10.38.1.26 (0:c:29:e5:40:a0) > 255.255.255.255 (ff:ff:ff:ff:ff:ff)
+OP: 2 (BOOTPREPLY)
+HTYPE: 1 (Ethernet)
+HLEN: 6
+HOPS: 0
+XID: 54330ee6
+SECS: 0
+FLAGS: 0
+CIADDR: 0.0.0.0
+YIADDR: 10.38.1.117
+SIADDR: 10.143.0.19
+GIADDR: 0.0.0.0
+CHADDR: 96:4e:d7:51:42:de:00:00:00:00:00:00:00:00:00:00
+SNAME: .
+FNAME: snponly.efi.
+OPTION: 53 ( 1) DHCP message type 5 (DHCPACK)
+OPTION: 58 ( 4) T1 60 (60s)
+OPTION: 59 ( 4) T2 105 (1m45s)
+OPTION: 51 ( 4) IP address leasetime 120 (2m)
+OPTION: 54 ( 4) Server identifier 10.38.1.26
+OPTION: 1 ( 4) Subnet mask 255.255.255.0
+OPTION: 3 ( 4) Routers 10.38.1.254
+OPTION: 6 ( 8) DNS server 10.38.1.26,10.143.0.14
+OPTION: 15 ( 11) Domainname rakort.pls
+---------------------------------------------------------------------------
+TIME: 2023-08-24 17:46:52.386
+IP: 0.0.0.0 (a0:ec:f9:38:67:3d) > 255.255.255.255 (ff:ff:ff:ff:ff:ff)
+OP: 1 (BOOTPREQUEST)
+HTYPE: 1 (Ethernet)
+HLEN: 6
+HOPS: 0
+XID: 00002097
+SECS: 0
+FLAGS: 8000
+CIADDR: 0.0.0.0
+YIADDR: 0.0.0.0
+SIADDR: 0.0.0.0
+GIADDR: 0.0.0.0
+CHADDR: a0:ec:f9:38:67:3d:00:00:00:00:00:00:00:00:00:00
+SNAME: .
+FNAME: .
+OPTION: 53 ( 1) DHCP message type 1 (DHCPDISCOVER)
+OPTION: 57 ( 2) Maximum DHCP message size 1200
+OPTION: 61 ( 7) Client-identifier 01:a0:ec:f9:38:67:3d
+OPTION: 12 ( 6) Host name Rakort
+OPTION: 55 ( 9) Parameter Request List 1 (Subnet mask)
+6 (DNS server)
+15 (Domainname)
+44 (NetBIOS name server)
+3 (Routers)
+7 (Log server)
+33 (Static route)
+150 (???)
+43 (Vendor specific info)
+OPTION: 60 ( 14) Vendor class identifier Cisco AP c1600
+---------------------------------------------------------------------------
+TIME: 2023-08-24 17:46:52.386
+IP: 10.38.1.26 (0:c:29:e5:40:a0) > 255.255.255.255 (ff:ff:ff:ff:ff:ff)
+OP: 2 (BOOTPREPLY)
+HTYPE: 1 (Ethernet)
+HLEN: 6
+HOPS: 0
+XID: 00002097
+SECS: 0
+FLAGS: 0
+CIADDR: 0.0.0.0
+YIADDR: 10.38.1.128
+SIADDR: 10.143.0.19
+GIADDR: 0.0.0.0
+CHADDR: a0:ec:f9:38:67:3d:00:00:00:00:00:00:00:00:00:00
+SNAME: .
+FNAME: snponly.efi.
+OPTION: 53 ( 1) DHCP message type 2 (DHCPOFFER)
+OPTION: 1 ( 4) Subnet mask 255.255.255.0
+OPTION: 58 ( 4) T1 60 (60s)
+OPTION: 59 ( 4) T2 105 (1m45s)
+OPTION: 51 ( 4) IP address leasetime 120 (2m)
+OPTION: 54 ( 4) Server identifier 10.38.1.26
+OPTION: 6 ( 8) DNS server 10.38.1.26,10.143.0.14
+OPTION: 15 ( 11) Domainname rakort.pls
+OPTION: 3 ( 4) Routers 10.38.1.254
+---------------------------------------------------------------------------
+TIME: 2023-08-24 17:46:52.386
+IP: 0.0.0.0 (a0:ec:f9:38:67:3d) > 255.255.255.255 (ff:ff:ff:ff:ff:ff)
+OP: 1 (BOOTPREQUEST)
+HTYPE: 1 (Ethernet)
+HLEN: 6
+HOPS: 0
+XID: 00002097
+SECS: 0
+FLAGS: 8000
+CIADDR: 0.0.0.0
+YIADDR: 0.0.0.0
+SIADDR: 0.0.0.0
+GIADDR: 0.0.0.0
+CHADDR: a0:ec:f9:38:67:3d:00:00:00:00:00:00:00:00:00:00
+SNAME: .
+FNAME: .
+OPTION: 53 ( 1) DHCP message type 3 (DHCPREQUEST)
+OPTION: 57 ( 2) Maximum DHCP message size 1200
+OPTION: 61 ( 7) Client-identifier 01:a0:ec:f9:38:67:3d
+OPTION: 54 ( 4) Server identifier 10.38.1.26
+OPTION: 50 ( 4) Request IP address 10.38.1.128
+OPTION: 12 ( 6) Host name Rakort
+OPTION: 55 ( 9) Parameter Request List 1 (Subnet mask)
+6 (DNS server)
+15 (Domainname)
+44 (NetBIOS name server)
+3 (Routers)
+7 (Log server)
+33 (Static route)
+150 (???)
+43 (Vendor specific info)
+OPTION: 60 ( 14) Vendor class identifier Cisco AP c1600
+---------------------------------------------------------------------------
+TIME: 2023-08-24 17:46:52.387
+IP: 10.38.1.26 (0:c:29:e5:40:a0) > 255.255.255.255 (ff:ff:ff:ff:ff:ff)
+OP: 2 (BOOTPREPLY)
+HTYPE: 1 (Ethernet)
+HLEN: 6
+HOPS: 0
+XID: 00002097
+SECS: 0
+FLAGS: 0
+CIADDR: 0.0.0.0
+YIADDR: 10.38.1.128
+SIADDR: 10.143.0.19
+GIADDR: 0.0.0.0
+CHADDR: a0:ec:f9:38:67:3d:00:00:00:00:00:00:00:00:00:00
+SNAME: .
+FNAME: snponly.efi.
+OPTION: 53 ( 1) DHCP message type 5 (DHCPACK)
+OPTION: 58 ( 4) T1 60 (60s)
+OPTION: 59 ( 4) T2 105 (1m45s)
+OPTION: 51 ( 4) IP address leasetime 120 (2m)
+OPTION: 54 ( 4) Server identifier 10.38.1.26
+OPTION: 1 ( 4) Subnet mask 255.255.255.0
+OPTION: 6 ( 8) DNS server 10.38.1.26,10.143.0.14
+OPTION: 15 ( 11) Domainname rakort.pls
+OPTION: 3 ( 4) Routers 10.38.1.254
+---------------------------------------------------------------------------
+TIME: 2023-08-24 17:47:08.194
+IP: 0.0.0.0 (70:d9:31:39:a1:80) > 255.255.255.255 (ff:ff:ff:ff:ff:ff)
+OP: 1 (BOOTPREQUEST)
+HTYPE: 1 (Ethernet)
+HLEN: 6
+HOPS: 0
+XID: 0017c30c
+SECS: 0
+FLAGS: 0
+CIADDR: 0.0.0.0
+YIADDR: 0.0.0.0
+SIADDR: 0.0.0.0
+GIADDR: 0.0.0.0
+CHADDR: 70:d9:31:39:a1:80:00:00:00:00:00:00:00:00:00:00
+SNAME: .
+FNAME: .
+OPTION: 53 ( 1) DHCP message type 1 (DHCPDISCOVER)
+OPTION: 61 ( 7) Client-identifier 01:70:d9:31:39:a1:80
+OPTION: 57 ( 2) Maximum DHCP message size 1464
+OPTION: 60 ( 9) Vendor class identifier huawei AP
+OPTION: 55 ( 10) Parameter Request List 1 (Subnet mask)
+3 (Routers)
+6 (DNS server)
+15 (Domainname)
+28 (Broadcast address)
+33 (Static route)
+43 (Vendor specific info)
+44 (NetBIOS name server)
+121 (Classless Static Route)
+184 (???)
+---------------------------------------------------------------------------
+TIME: 2023-08-24 17:47:08.194
+IP: 10.38.1.26 (0:c:29:e5:40:a0) > 255.255.255.255 (ff:ff:ff:ff:ff:ff)
+OP: 2 (BOOTPREPLY)
+HTYPE: 1 (Ethernet)
+HLEN: 6
+HOPS: 0
+XID: 0017c30c
+SECS: 0
+FLAGS: 0
+CIADDR: 0.0.0.0
+YIADDR: 10.38.1.112
+SIADDR: 10.143.0.19
+GIADDR: 0.0.0.0
+CHADDR: 70:d9:31:39:a1:80:00:00:00:00:00:00:00:00:00:00
+SNAME: .
+FNAME: snponly.efi.
+OPTION: 53 ( 1) DHCP message type 2 (DHCPOFFER)
+OPTION: 1 ( 4) Subnet mask 255.255.255.0
+OPTION: 58 ( 4) T1 60 (60s)
+OPTION: 59 ( 4) T2 105 (1m45s)
+OPTION: 51 ( 4) IP address leasetime 120 (2m)
+OPTION: 54 ( 4) Server identifier 10.38.1.26
+OPTION: 3 ( 4) Routers 10.38.1.254
+OPTION: 6 ( 8) DNS server 10.38.1.26,10.143.0.14
+OPTION: 15 ( 11) Domainname rakort.pls
+---------------------------------------------------------------------------
+TIME: 2023-08-24 17:47:08.194
+IP: 0.0.0.0 (70:d9:31:39:a1:80) > 255.255.255.255 (ff:ff:ff:ff:ff:ff)
+OP: 1 (BOOTPREQUEST)
+HTYPE: 1 (Ethernet)
+HLEN: 6
+HOPS: 0
+XID: 43a74a5b
+SECS: 0
+FLAGS: 0
+CIADDR: 0.0.0.0
+YIADDR: 0.0.0.0
+SIADDR: 0.0.0.0
+GIADDR: 0.0.0.0
+CHADDR: 70:d9:31:39:a1:80:00:00:00:00:00:00:00:00:00:00
+SNAME: .
+FNAME: .
+OPTION: 53 ( 1) DHCP message type 3 (DHCPREQUEST)
+OPTION: 50 ( 4) Request IP address 10.38.1.112
+OPTION: 61 ( 7) Client-identifier 01:70:d9:31:39:a1:80
+OPTION: 54 ( 4) Server identifier 10.38.1.26
+OPTION: 57 ( 2) Maximum DHCP message size 1464
+OPTION: 60 ( 9) Vendor class identifier huawei AP
+OPTION: 55 ( 10) Parameter Request List 1 (Subnet mask)
+3 (Routers)
+6 (DNS server)
+15 (Domainname)
+28 (Broadcast address)
+33 (Static route)
+43 (Vendor specific info)
+44 (NetBIOS name server)
+121 (Classless Static Route)
+184 (???)
+---------------------------------------------------------------------------
+TIME: 2023-08-24 17:47:08.195
+IP: 10.38.1.26 (0:c:29:e5:40:a0) > 255.255.255.255 (ff:ff:ff:ff:ff:ff)
+OP: 2 (BOOTPREPLY)
+HTYPE: 1 (Ethernet)
+HLEN: 6
+HOPS: 0
+XID: 43a74a5b
+SECS: 0
+FLAGS: 0
+CIADDR: 0.0.0.0
+YIADDR: 10.38.1.112
+SIADDR: 10.143.0.19
+GIADDR: 0.0.0.0
+CHADDR: 70:d9:31:39:a1:80:00:00:00:00:00:00:00:00:00:00
+SNAME: .
+FNAME: snponly.efi.
+OPTION: 53 ( 1) DHCP message type 5 (DHCPACK)
+OPTION: 58 ( 4) T1 60 (60s)
+OPTION: 59 ( 4) T2 105 (1m45s)
+OPTION: 51 ( 4) IP address leasetime 120 (2m)
+OPTION: 54 ( 4) Server identifier 10.38.1.26
+OPTION: 1 ( 4) Subnet mask 255.255.255.0
+OPTION: 3 ( 4) Routers 10.38.1.254
+OPTION: 6 ( 8) DNS server 10.38.1.26,10.143.0.14
+OPTION: 15 ( 11) Domainname rakort.pls
+---------------------------------------------------------------------------
+TIME: 2023-08-24 17:47:11.834
+IP: 0.0.0.0 (7e:e7:25:62:8e:bf) > 255.255.255.255 (ff:ff:ff:ff:ff:ff)
+OP: 1 (BOOTPREQUEST)
+HTYPE: 1 (Ethernet)
+HLEN: 6
+HOPS: 0
+XID: 52af474c
+SECS: 0
+FLAGS: 0
+CIADDR: 0.0.0.0
+YIADDR: 0.0.0.0
+SIADDR: 0.0.0.0
+GIADDR: 0.0.0.0
+CHADDR: 7e:e7:25:62:8e:bf:00:00:00:00:00:00:00:00:00:00
+SNAME: .
+FNAME: .
+OPTION: 53 ( 1) DHCP message type 1 (DHCPDISCOVER)
+OPTION: 61 ( 7) Client-identifier 01:7e:e7:25:62:8e:bf
+OPTION: 57 ( 2) Maximum DHCP message size 1500
+OPTION: 60 ( 15) Vendor class identifier android-dhcp-13
+OPTION: 12 ( 9) Host name Android8T
+OPTION: 55 ( 12) Parameter Request List 1 (Subnet mask)
+3 (Routers)
+6 (DNS server)
+15 (Domainname)
+26 (Interface MTU)
+28 (Broadcast address)
+51 (IP address leasetime)
+58 (T1)
+59 (T2)
+43 (Vendor specific info)
+114 (URL)
+108 (Swap Path)
+OPTION: 80 ( 0) Naming Authority
+---------------------------------------------------------------------------
+TIME: 2023-08-24 17:47:11.834
+IP: 10.38.1.26 (0:c:29:e5:40:a0) > 255.255.255.255 (ff:ff:ff:ff:ff:ff)
+OP: 2 (BOOTPREPLY)
+HTYPE: 1 (Ethernet)
+HLEN: 6
+HOPS: 0
+XID: 52af474c
+SECS: 0
+FLAGS: 0
+CIADDR: 0.0.0.0
+YIADDR: 10.38.1.129
+SIADDR: 10.143.0.19
+GIADDR: 0.0.0.0
+CHADDR: 7e:e7:25:62:8e:bf:00:00:00:00:00:00:00:00:00:00
+SNAME: .
+FNAME: snponly.efi.
+OPTION: 53 ( 1) DHCP message type 2 (DHCPOFFER)
+OPTION: 1 ( 4) Subnet mask 255.255.255.0
+OPTION: 58 ( 4) T1 60 (60s)
+OPTION: 59 ( 4) T2 105 (1m45s)
+OPTION: 51 ( 4) IP address leasetime 120 (2m)
+OPTION: 54 ( 4) Server identifier 10.38.1.26
+OPTION: 3 ( 4) Routers 10.38.1.254
+OPTION: 6 ( 8) DNS server 10.38.1.26,10.143.0.14
+OPTION: 15 ( 11) Domainname rakort.pls
+---------------------------------------------------------------------------
+TIME: 2023-08-24 17:47:11.835
+IP: 0.0.0.0 (7e:e7:25:62:8e:bf) > 255.255.255.255 (ff:ff:ff:ff:ff:ff)
+OP: 1 (BOOTPREQUEST)
+HTYPE: 1 (Ethernet)
+HLEN: 6
+HOPS: 0
+XID: 52af474c
+SECS: 0
+FLAGS: 0
+CIADDR: 0.0.0.0
+YIADDR: 0.0.0.0
+SIADDR: 0.0.0.0
+GIADDR: 0.0.0.0
+CHADDR: 7e:e7:25:62:8e:bf:00:00:00:00:00:00:00:00:00:00
+SNAME: .
+FNAME: .
+OPTION: 53 ( 1) DHCP message type 3 (DHCPREQUEST)
+OPTION: 61 ( 7) Client-identifier 01:7e:e7:25:62:8e:bf
+OPTION: 50 ( 4) Request IP address 10.38.1.129
+OPTION: 54 ( 4) Server identifier 10.38.1.26
+OPTION: 57 ( 2) Maximum DHCP message size 1500
+OPTION: 60 ( 15) Vendor class identifier android-dhcp-13
+OPTION: 12 ( 9) Host name Android8T
+OPTION: 55 ( 12) Parameter Request List 1 (Subnet mask)
+3 (Routers)
+6 (DNS server)
+15 (Domainname)
+26 (Interface MTU)
+28 (Broadcast address)
+51 (IP address leasetime)
+58 (T1)
+59 (T2)
+43 (Vendor specific info)
+114 (URL)
+108 (Swap Path)
+---------------------------------------------------------------------------
+TIME: 2023-08-24 17:47:11.835
+IP: 10.38.1.26 (0:c:29:e5:40:a0) > 255.255.255.255 (ff:ff:ff:ff:ff:ff)
+OP: 2 (BOOTPREPLY)
+HTYPE: 1 (Ethernet)
+HLEN: 6
+HOPS: 0
+XID: 52af474c
+SECS: 0
+FLAGS: 0
+CIADDR: 0.0.0.0
+YIADDR: 10.38.1.129
+SIADDR: 10.143.0.19
+GIADDR: 0.0.0.0
+CHADDR: 7e:e7:25:62:8e:bf:00:00:00:00:00:00:00:00:00:00
+SNAME: .
+FNAME: snponly.efi.
+OPTION: 53 ( 1) DHCP message type 5 (DHCPACK)
+OPTION: 58 ( 4) T1 60 (60s)
+OPTION: 59 ( 4) T2 105 (1m45s)
+OPTION: 51 ( 4) IP address leasetime 120 (2m)
+OPTION: 54 ( 4) Server identifier 10.38.1.26
+OPTION: 1 ( 4) Subnet mask 255.255.255.0
+OPTION: 3 ( 4) Routers 10.38.1.254
+OPTION: 6 ( 8) DNS server 10.38.1.26,10.143.0.14
+OPTION: 15 ( 11) Domainname rakort.pls
+---------------------------------------------------------------------------
+TIME: 2023-08-24 17:47:41.994
+IP: 0.0.0.0 (7e:e7:25:62:8e:bf) > 255.255.255.255 (ff:ff:ff:ff:ff:ff)
+OP: 1 (BOOTPREQUEST)
+HTYPE: 1 (Ethernet)
+HLEN: 6
+HOPS: 0
+XID: cee3c8d9
+SECS: 0
+FLAGS: 0
+CIADDR: 0.0.0.0
+YIADDR: 0.0.0.0
+SIADDR: 0.0.0.0
+GIADDR: 0.0.0.0
+CHADDR: 7e:e7:25:62:8e:bf:00:00:00:00:00:00:00:00:00:00
+SNAME: .
+FNAME: .
+OPTION: 53 ( 1) DHCP message type 3 (DHCPREQUEST)
+OPTION: 61 ( 7) Client-identifier 01:7e:e7:25:62:8e:bf
+OPTION: 50 ( 4) Request IP address 10.38.1.129
+OPTION: 57 ( 2) Maximum DHCP message size 1500
+OPTION: 60 ( 15) Vendor class identifier android-dhcp-13
+OPTION: 12 ( 9) Host name Android8T
+OPTION: 55 ( 12) Parameter Request List 1 (Subnet mask)
+3 (Routers)
+6 (DNS server)
+15 (Domainname)
+26 (Interface MTU)
+28 (Broadcast address)
+51 (IP address leasetime)
+58 (T1)
+59 (T2)
+43 (Vendor specific info)
+114 (URL)
+108 (Swap Path)
+---------------------------------------------------------------------------
+TIME: 2023-08-24 17:47:41.994
+IP: 10.38.1.26 (0:c:29:e5:40:a0) > 255.255.255.255 (ff:ff:ff:ff:ff:ff)
+OP: 2 (BOOTPREPLY)
+HTYPE: 1 (Ethernet)
+HLEN: 6
+HOPS: 0
+XID: cee3c8d9
+SECS: 0
+FLAGS: 0
+CIADDR: 0.0.0.0
+YIADDR: 10.38.1.129
+SIADDR: 10.143.0.19
+GIADDR: 0.0.0.0
+CHADDR: 7e:e7:25:62:8e:bf:00:00:00:00:00:00:00:00:00:00
+SNAME: .
+FNAME: snponly.efi.
+OPTION: 53 ( 1) DHCP message type 5 (DHCPACK)
+OPTION: 58 ( 4) T1 60 (60s)
+OPTION: 59 ( 4) T2 105 (1m45s)
+OPTION: 51 ( 4) IP address leasetime 120 (2m)
+OPTION: 54 ( 4) Server identifier 10.38.1.26
+OPTION: 1 ( 4) Subnet mask 255.255.255.0
+OPTION: 3 ( 4) Routers 10.38.1.254
+OPTION: 6 ( 8) DNS server 10.38.1.26,10.143.0.14
+OPTION: 15 ( 11) Domainname rakort.pls
+---------------------------------------------------------------------------
